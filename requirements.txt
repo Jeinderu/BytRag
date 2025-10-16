@@ -1,0 +1,34 @@
+# Core RAG Framework
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-core==0.1.52
+
+# Vector Database
+chromadb==0.4.24
+numpy<2.0,>=1.22.5  # ChromaDB 0.4.24 requires NumPy 1.x
+
+# Embeddings and NLP
+sentence-transformers==2.5.1
+
+# LLM Interface
+ollama==0.1.7
+
+# Frontend
+streamlit>=1.32.2
+
+# Safety and Moderation
+alt-profanity-check==1.7.2
+onnxruntime==1.16.3
+
+# Document Processing
+pypdf==4.1.0
+python-docx==1.1.0
+python-magic-bin==0.4.14  # Windows binary for file type detection
+
+# Retrieval Enhancement
+rank-bm25==0.2.2
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.2
+
